@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>أحمد عبد اللطيف - متخصص تسويق رقمي</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="تسويق رقمي, إعلانات جوجل, تحسين محركات البحث, تصميم مواقع" name="keywords">
+    <meta content="أحمد عبد اللطيف - متخصص تسويق رقمي وإعلانات جوجل بخبرة 4 سنوات" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* تخصيصات إضافية للتصميم العربي */
+        body {
+            font-family: 'Cairo', sans-serif;
+            text-align: right;
+        }
+        
+        .feature-box {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            padding: 25px;
+            height: 100%;
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .stats-box {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 30px 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .stats-box:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .service-item {
+            transition: all 0.3s ease;
+        }
+        
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .progress {
+            height: 10px;
+            border-radius: 5px;
+        }
+        
+        .btn-rounded {
+            border-radius: 30px;
+        }
+        
+        /* تعديلات لتحسين الشكل على الأجهزة الصغيرة */
+        @media (max-width: 768px) {
+            .hero-header .row {
+                flex-direction: column-reverse;
+            }
+            .hero-header img {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">جاري التحميل...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">أحمد عبد اللطيف</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">الرئيسية</a>
+                        <a href="#services" class="nav-item nav-link">الخدمات</a>
+                        <a href="#about" class="nav-item nav-link">من نحن</a>
+                        <a href="#contact" class="nav-item nav-link">اتصل بنا</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="home" class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <!-- الصورة على اليسار -->
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" style="border-radius: 20px;" src="img/Google-Ads-flyte-new-media.jpeg" alt="إعلانات جوجل">
+                        </div>
+                        <!-- النص على اليمين -->
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <h1 class="text-white mb-4 animated slideInDown">تخصص إعلانات جوجل محترفة</h1>
+                            <p class="text-white pb-3 animated slideInDown">
+                                نقدم حلولاً إعلانية مبتكرة عبر منصة جوجل أدز لتعزيز ظهور علامتك التجارية وزيادة المبيعات. فريقنا من الخبراء يعمل على تصميم وتنفيذ حملات إعلانية فعالة تلبي أهدافك التسويقية.
+                            </p>
+                            <a href="#about" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">المزيد عنا</a>
+                            <a href="#contact" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">اتصل بنا</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <!-- الميزة الأولى -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-box bg-light">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h5 class="mb-3">إعلانات جوجل</h5>
+                            <p class="m-0">
+                                نقدم حملات إعلانية مدروسة عبر جوجل أدز لزيادة ظهور علامتك التجارية وجذب العملاء المحتملين.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- الميزة الثانية -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-box bg-light">
+                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
+                            <h5 class="mb-3">تحسين محركات البحث</h5>
+                            <p class="m-0">
+                                نعمل على تحسين موقعك لمحركات البحث (SEO) لزيادة حركة الزوار وتحسين ترتيبك في نتائج البحث.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- الميزة الثالثة -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-box bg-light">
+                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                            <h5 class="mb-3">تصميم المواقع</h5>
+                            <p class="m-0">
+                                نقدم خدمات تصميم وتطوير مواقع احترافية تتوافق مع معايير جوجل وتجذب العملاء بشكل فعال.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <!-- الصورة على اليسار -->
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png" alt="من نحن">
+                    </div>
+                    <!-- النص على اليمين -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="section-title text-secondary">من نحن<span></span></p>
+                        <h1 class="mb-5">الحلول الرقمية الأولى بخبرة</h1>
+                        <p class="mb-4">
+                            نقدم حلولًا رقمية متكاملة تساعدك على تحقيق أهدافك التسويقية، نضمن لك نتائج ملموسة وقابلة للقياس.
+                        </p>
+                        
+                        <!-- مهارات معدلة بدون نسب مئوية -->
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check-circle text-primary me-2"></i>
+                                <h5 class="mb-0">إعلانات جوجل</h5>
+                            </div>
+                            <p>حملات إعلانية مدروسة لزيادة المبيعات والوصول إلى العملاء المستهدفين</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check-circle text-primary me-2"></i>
+                                <h5 class="mb-0">تحسين محركات البحث</h5>
+                            </div>
+                            <p>تحسين متكامل لموقعك لتحقيق أفضل النتائج في محركات البحث</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check-circle text-primary me-2"></i>
+                                <h5 class="mb-0">تصميم المواقع</h5>
+                            </div>
+                            <p>تصاميم عصرية وسريعة تحسن تجربة المستخدم وتحقق أهدافك</p>
+                        </div>
+                        
+                        <a href="#services" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">خدماتنا</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Facts Start -->
+        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <div class="stats-box">
+                            <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
+                            <h3 class="text-white mb-2">خبرة واسعة</h3>
+                            <p class="text-white mb-0">أكثر من 4 سنوات في التسويق الرقمي</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <div class="stats-box">
+                            <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
+                            <h3 class="text-white mb-2">فريق متكامل</h3>
+                            <p class="text-white mb-0">خبراء في مختلف التخصصات الرقمية</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <div class="stats-box">
+                            <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+                            <h3 class="text-white mb-2">عملاء راضون</h3>
+                            <p class="text-white mb-0">مئات العملاء الذين حققوا نتائج ممتازة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <div class="stats-box">
+                            <i class="fa fa-check fa-3x text-secondary mb-3"></i>
+                            <h3 class="text-white mb-2">مشاريع ناجحة</h3>
+                            <p class="text-white mb-0">تنفيذ مئات المشاريع باحترافية عالية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+
+        <!-- Service Start -->
+        <div id="services" class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>خدماتنا<span></span></p>
+                    <h1 class="text-center mb-5">الحلول التي نقدمها</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-search fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">تحسين محركات البحث</h5>
+                            <p class="m-0">نقدم خدمات تحسين محركات البحث (SEO) لزيادة ظهور موقعك في نتائج البحث وجذب المزيد من الزوار.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-laptop-code fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">تصميم المواقع</h5>
+                            <p class="m-0">نصمم مواقع ويب احترافية بتجربة مستخدم ممتازة وتصميم جذاب يتوافق مع معايير السيو.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">التسويق عبر وسائل التواصل</h5>
+                            <p class="m-0">ننفذ حملات تسويقية فعالة على منصات التواصل الاجتماعي لزيادة التفاعل والوصول إلى العملاء.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-water fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">إعلانات خزانات المياه</h5>
+                            <p class="m-0">نقدم خدمات الإعلان عن أفضل أنواع خزانات المياه بالمملكة العربية السعودية، مع التركيز على الجودة العالية والأسعار المناسبة.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-thumbs-up fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">إعلانات الدفع بالنقرة (PPC)</h5>
+                            <p class="m-0">ننفذ حملات إعلانية مدفوعة لزيادة الزيارات والتحويلات بشكل سريع وفعال.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fab fa-android fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">تطوير التطبيقات</h5>
+                            <p class="m-0">نطور تطبيقات جوال عالية الجودة لتلبية احتياجات عملائنا وتعزيز تجربة المستخدم.</p>
+                            <a class="btn btn-square" href="#contact"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Newsletter Start -->
+        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <p class="section-title text-white justify-content-center"><span></span>النشرة البريدية<span></span></p>
+                        <h1 class="text-center text-white mb-4">كن دائمًا على اتصال</h1>
+                        <p class="text-white mb-4">اشترك في نشرتنا البريدية لتلقي آخر التحديثات والعروض الخاصة.</p>
+                        <form id="newsletterForm" class="position-relative w-100 mt-3">
+                            <input id="emailInput" class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email" placeholder="أدخل بريدك الإلكتروني" style="height: 48px;" required>
+                            <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                                <i class="fa fa-paper-plane text-primary fs-4"></i>
+                            </button>
+                        </form>
+                        <div id="subscriptionMessage" class="mt-3 text-white" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter End -->
+
+
+        <!-- Footer Start -->
+        <div id="contact" class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <h5 class="text-white mb-4">تواصل معنا</h5>
+                        <p><i class="fa fa-phone-alt me-3"></i>+201012290829</p>
+                        <p><i class="fa fa-envelope me-3"></i>ahmedabdellatifads@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">روابط سريعة</h5>
+                        <a class="btn btn-link" href="#home">الرئيسية</a>
+                        <a class="btn btn-link" href="#services">الخدمات</a>
+                        <a class="btn btn-link" href="#about">من نحن</a>
+                        <a class="btn btn-link" href="#contact">اتصل بنا</a>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <h5 class="text-white mb-4">النشرة البريدية</h5>
+                        <p>اشترك في نشرتنا البريدية لتلقي آخر التحديثات والعروض الخاصة.</p>
+                        <form id="footerNewsletterForm" class="position-relative w-100 mt-3">
+                            <input id="footerEmailInput" class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email" placeholder="بريدك الإلكتروني" style="height: 48px;" required>
+                            <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                                <i class="fa fa-paper-plane text-primary fs-4"></i>
+                            </button>
+                        </form>
+                        <div id="footerSubscriptionMessage" class="mt-3 text-white" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">أحمد عبد اللطيف</a>, جميع الحقوق محفوظة.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="#home">الرئيسية</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">سياسة الخصوصية</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#helpModal">مساعدة</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Privacy Policy Modal -->
+        <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="privacyModalLabel">سياسة الخصوصية</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-right">
+                        <p>نحن نحرص على خصوصيتك ونلتزم بحماية بياناتك الشخصية. هذه السياسة توضح كيف نتعامل مع المعلومات التي نجمعها منك.</p>
+                        <h6>المعلومات التي نجمعها:</h6>
+                        <ul>
+                            <li>الاسم وعنوان البريد الإلكتروني عند الاشتراك في النشرة البريدية</li>
+                            <li>معلومات الاتصال عند تقديم استفسار أو طلب خدمة</li>
+                            <li>بيانات الزيارة والتصفح لأغراض تحليلية</li>
+                        </ul>
+                        <h6>كيف نستخدم المعلومات:</h6>
+                        <ul>
+                            <li>تزويدك بالخدمات المطلوبة</li>
+                            <li>تحسين تجربة المستخدم على موقعنا</li>
+                            <li>إرسال التحديثات والعروض الخاصة (إذا وافقت على ذلك)</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div class="modal fade" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="helpModalLabel">مساعدة</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-right">
+                        <h6>كيف يمكننا مساعدتك؟</h6>
+                        <p>إذا كنت بحاجة إلى أي مساعدة أو لديك استفسار، لا تتردد في التواصل معنا عبر:</p>
+                        <ul>
+                            <li>البريد الإلكتروني: ahmedabdellatifads@gmail.com</li>
+                            <li>رقم الهاتف: +201012290829</li>
+                        </ul>
+                        <p>سوف نقوم بالرد على استفسارك في أقرب وقت ممكن.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        // تنشيط الروابط في شريط التنقل
+        document.querySelectorAll('.navbar-nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                document.querySelectorAll('.navbar-nav a').forEach(item => {
+                    item.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+
+        // جعل زر "المزيد عنا" يعمل
+        document.querySelectorAll('a[href="#about"], a[href="#services"], a[href="#contact"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // نموذج الاشتراك في النشرة البريدية
+        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            const messageElement = document.getElementById('subscriptionMessage');
+            
+            // هنا يمكنك إضافة كود لإرسال البريد الإلكتروني إلى الخادم
+            // سنستخدم محاكاة للإرسال لأغراض العرض
+            
+            messageElement.textContent = `شكراً لك على اشتراكك بالبريد ${email}. ستصلك آخر التحديثات قريباً.`;
+            messageElement.style.display = 'block';
+            messageElement.style.color = '#fff';
+            
+            // إخفاء الرسالة بعد 5 ثواني
+            setTimeout(() => {
+                messageElement.style.display = 'none';
+            }, 5000);
+            
+            // تفريغ حقل الإدخال
+            document.getElementById('emailInput').value = '';
+        });
+
+        // نموذج الاشتراك في الفوتر
+        document.getElementById('footerNewsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('footerEmailInput').value;
+            const messageElement = document.getElementById('footerSubscriptionMessage');
+            
+            // محاكاة لإرسال البريد الإلكتروني
+            messageElement.textContent = `شكراً لك على اشتراكك بالبريد ${email}. ستصلك آخر التحديثات قريباً.`;
+            messageElement.style.display = 'block';
+            messageElement.style.color = '#fff';
+            
+            // إخفاء الرسالة بعد 5 ثواني
+            setTimeout(() => {
+                messageElement.style.display = 'none';
+            }, 5000);
+            
+            // تفريغ حقل الإدخال
+            document.getElementById('footerEmailInput').value = '';
+        });
+
+        // تنشيط تأثيرات التمرير السلس
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
